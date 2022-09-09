@@ -6,18 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        h1{
+        #platzi{ /*domina este color por que el ID es dominante*/
             color: red;
         }
-        h1{
-            color: blue;
+        .master{ /*la clase se llama en puntos y no es prevalece de acuerdo al orden*/
+            color: #000A87;
+
         }
-        h1:hover{
-            color: blueviolet;
-        }
-    </style>
+</style>
 </head>
 <body>
-    <h1>Platzi</h1>
+    <div id="platzi" class="master">Platzi</div>
 </body>
 </html>
